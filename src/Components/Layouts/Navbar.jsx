@@ -15,7 +15,7 @@ const Navbar = () => {
   const [show, setShow] = useState(false);
   return (
     <div>
-      <nav className="flex 2xl:items-center xl:items-center lg:items-center gap-10 2xl:h-screen xl:h-screen lg:h-screen h-full 2xl:w-[250px] xl:w-[250px] lg:w-[250px] w-full 2xl:flex-col xl:flex-col lg:flex-col marker:flex-row p-3 relative 2xl:bg-slate-900 xl:bg-slate-900 lg:bg-slate-900 2xl:bg-gradient-to-r 2xl:from-slate-900 2xl:to-slate-900 xl:from-slate-900 xl:to-slate-900 lg:from-slate-900 lg:to-slate-900 bg-gradient-to-r from-red-700 to-yellow-600">
+      <nav className="flex 2xl:items-center xl:items-center lgz:items-center gap-10 2xl:h-screen xl:h-screen lg:h-screen h-full 2xl:w-[250px] xl:w-[250px] lg:w-[250px] w-full 2xl:flex-col xl:flex-col lg:flex-col marker:flex-row p-3 relative 2xl:bg-slate-900 xl:bg-slate-900 lg:bg-slate-900 2xl:bg-gradient-to-r 2xl:from-slate-900 2xl:to-slate-900 xl:from-slate-900 xl:to-slate-900 lg:from-slate-900 lg:to-slate-900 bg-gradient-to-r from-red-700 to-yellow-600">
         <div
           id="absolute-item"
           className="w-full h-32 rounded-b-lg 2xl:absolute xl:absolute lg:absolute 2xl:block xl:block lg:block hidden bg-gradient-to-r from-red-700 to-yellow-600 top-0 "

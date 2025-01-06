@@ -1,4 +1,4 @@
-const { default: ProjectLayout } = require("@/Components/Layouts/Project");
+import ProjectLayout from "@/Components/Layouts/Project";
 
 const ProjectPage = () => {
   return <ProjectLayout />;
