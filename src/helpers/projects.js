@@ -122,6 +122,29 @@ const allProjects = [
       },
     ],
   },
+  {
+    id: 6,
+    title: "Al-Quran Online",
+    hosting: "",
+    github: "https://github.com/YazidIrul3/Al-quran-online-ts",
+    description:
+      "website masih error di bagian development,tapi bisa untuk di running",
+    image: images.project.al_quran_web,
+    techs: [
+      {
+        name: "Tailwind",
+        img: images.tailwind,
+      },
+      {
+        name: "Next",
+        img: images.nextjs,
+      },
+      {
+        name: "TypeScript",
+        img: images.ts,
+      },
+    ],
+  },
 ];
 
 const projectHome = [
