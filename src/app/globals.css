@@ -1,7 +1,6 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
 
 #image-skill {
   width: 100px;
@@ -13,5 +12,10 @@
 }
 
 #absoulute-item {
- background-color: linear-gradient(0deg, rgba(255, 255, 255, 0.9), rgba(0, 0, 0, 0.9)), rgba(0, 0, 0, 0.9);
+  background-color: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.9),
+      rgba(0, 0, 0, 0.9)
+    ),
+    rgba(0, 0, 0, 0.9);
 }
