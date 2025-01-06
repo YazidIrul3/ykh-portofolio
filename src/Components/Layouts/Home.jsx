@@ -1,20 +1,18 @@
 "use client";
+
 import images from "@/helpers/images";
-import Image from "next/image";
 import CardSkill from "../Fragments/CardSkill";
 import {
   GithubLogo,
   InstagramLogo,
   LinkedinLogo,
 } from "@phosphor-icons/react/dist/ssr";
-import Tautan from "../Elements/Tautan";
 import { useState } from "react";
 import { certificate } from "@/helpers/certificate";
 import CardCertificate from "../Fragments/CardCertificate";
 import CertificateDetail from "../Fragments/CertificateDetail";
 import EachUtils from "@/utils/EachUtils";
 import CardProject from "../Fragments/CardProject";
-import Projects, { getProject } from "@/helpers/projects";
 import project from "@/helpers/projects";
 
 const HomePage = () => {

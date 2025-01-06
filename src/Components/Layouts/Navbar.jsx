@@ -1,4 +1,5 @@
 "use client";
+
 import Image from "next/image";
 import fotoSendiri from "../../../public/images/fotoSendiri.jpg";
 import Tautan from "../Elements/Tautan";
