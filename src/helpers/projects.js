@@ -3,10 +3,12 @@ import images from "./images";
 const allProjects = [
   {
     id: 1,
-    title: "NEXT Marketplace with Next JS",
+    title: "YKH Marketplace",
+    hosting: "",
+    github: "https://github.com/YazidIrul3/Marketplace-Nextjs",
     description:
       "Sebuah website dengan Next JS dengan fetch data dari API dummmy.json",
-    image: images.project.project1_img1,
+    image: images.project.next_marketplace,
     techs: [
       {
         name: "Tailwind",
@@ -25,9 +27,11 @@ const allProjects = [
 
   {
     id: 2,
-    title: "WEB JIKAN ANIME",
+    title: "JIKAN ANIME UNOFFICIAL",
+    hosting: "https://jikanunofficial.vercel.app/",
+    github: "https://github.com/YazidIrul3/NEXT-Web-Anime",
     description: "website yang saya dengan menggunakan api dari jikan api",
-    image: images.project.project2_img1,
+    image: images.project.jikan_unofficial,
     techs: [
       {
         name: "Tailwind",
@@ -46,6 +50,8 @@ const allProjects = [
   {
     id: 3,
     title: "FULLSTACK WEB MY QUOTES",
+    hosting: "",
+    github: "https://github.com/YazidIrul3/my-quotes-web",
     description: "website ini berisi tentang semua quotes yang sama dapatkan",
     image: images.project.quotes_web,
     techs: [
@@ -74,6 +80,8 @@ const allProjects = [
   {
     id: 4,
     title: "Toko Sepatu",
+    hosting: "",
+    github: "https://github.com/YazidIrul3/Toko-sepatu-PHP",
     description: "website ini toko sepatu yang dibuat dengan php native",
     image: images.project.toko_sepatu,
     techs: [
@@ -88,6 +96,29 @@ const allProjects = [
       {
         name: "MYSQL",
         img: images.mysql,
+      },
+    ],
+  },
+  {
+    id: 5,
+    title: "Company Profile",
+    hosting: "https://company-profile-virid-ten.vercel.app/",
+    github: "https://github.com/YazidIrul3/Company-Profile",
+    description:
+      "Sebuah website landing page untuk company profile, website ini hasil dari kolaborasi saya dengan teman saya",
+    image: images.project.company_profile,
+    techs: [
+      {
+        name: "HTML",
+        img: images.html,
+      },
+      {
+        name: "CSS",
+        img: images.css,
+      },
+      {
+        name: "JavaScript",
+        img: images.js,
       },
     ],
   },
@@ -96,10 +127,12 @@ const allProjects = [
 const projectHome = [
   {
     id: 1,
-    title: "NEXT Marketplace with Next JS",
+    title: "YKH Marketplace",
+    hosting: "",
+    github: "https://github.com/YazidIrul3/Marketplace-Nextjs",
     description:
       "Sebuah website dengan Next JS dengan fetch data dari API dummmy.json",
-    image: images.project.project1_img1,
+    image: images.project.next_marketplace,
     techs: [
       {
         name: "Tailwind",
@@ -118,9 +151,11 @@ const projectHome = [
 
   {
     id: 2,
-    title: "WEB JIKAN ANIME",
+    title: "JIKAN ANIME UNOFFICIAL",
+    hosting: "https://jikanunofficial.vercel.app/",
+    github: "https://github.com/YazidIrul3/NEXT-Web-Anime",
     description: "website yang saya dengan menggunakan api dari jikan api",
-    image: images.project.project2_img1,
+    image: images.project.jikan_unofficial,
     techs: [
       {
         name: "Tailwind",
@@ -139,6 +174,8 @@ const projectHome = [
   {
     id: 3,
     title: "FULLSTACK WEB MY QUOTES",
+    hosting: "",
+    github: "https://github.com/YazidIrul3/my-quotes-web",
     description: "website ini berisi tentang semua quotes yang sama dapatkan",
     image: images.project.quotes_web,
     techs: [
@@ -167,6 +204,8 @@ const projectHome = [
   {
     id: 4,
     title: "Toko Sepatu",
+    hosting: "",
+    github: "https://github.com/YazidIrul3/Toko-sepatu-PHP",
     description: "website ini toko sepatu yang dibuat dengan php native",
     image: images.project.toko_sepatu,
     techs: [
@@ -183,7 +222,7 @@ const projectHome = [
         img: images.mysql,
       },
     ],
-  },  
+  },
 ];
 
 const project = {

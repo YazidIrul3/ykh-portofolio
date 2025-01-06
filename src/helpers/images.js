@@ -11,10 +11,11 @@ import html from "../../public/images/html.png";
 import mysql from "../../public/images/mysql.png";
 import gmail from "../../public/images/gmail.png";
 import mongodb from "../../public/images/mongodb.png";
-import project1_img1 from "../../public/images/project/project1_img1.png";
-import project2_img1 from "../../public/images/project/project2_img1.png";
+import next_marketplace from "../../public/images/project/next_marketplace.png";
+import jikan_unofficial from "../../public/images/project/jikan_unoffcial.png";
 import quotes_web from "../../public/images/project/quotes_web.png";
 import toko_sepatu from "../../public/images/project/toko_sepatu.png";
+import company_profile from "../../public/images/project/company-profile.png";
 
 const images = {
   certificate1,
@@ -26,15 +27,17 @@ const images = {
   express,
   tailwind,
   js,
+  html,
   mysql,
   gmail,
   mongodb,
   imagesSkill: [html, css, tailwind, php, express, js, react, nextjs, mysql],
   project: {
-    project1_img1,
-    project2_img1,
+    next_marketplace,
+    jikan_unofficial,
     quotes_web,
     toko_sepatu,
+    company_profile,
   },
 };
 

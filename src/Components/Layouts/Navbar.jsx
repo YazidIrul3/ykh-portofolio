@@ -10,6 +10,7 @@ import {
 } from "@phosphor-icons/react/dist/ssr";
 import { useState } from "react";
 import images from "@/helpers/images";
+import Link from "next/link";
 const Navbar = () => {
   const [show, setShow] = useState(false);
   return (
@@ -35,7 +36,9 @@ const Navbar = () => {
                 Yazid Khairul
               </h1>
               <div className="text-yellow-500 items-center text-2xl gap-1 2xl:flex xl:flex lg:flex hidden">
-                <GithubLogo />
+                <Link href={"https://github.com/YazidIrul3"}>
+                  <GithubLogo />
+                </Link>
                 <LinkedinLogo />
                 <InstagramLogo />
               </div>
@@ -52,7 +55,6 @@ const Navbar = () => {
 
           <div className="2xl:flex xl:flex lg:flex 2xl:flex-col xl:flex-col lg:flex-col hidden items-center gap-5 w-full px-5">
             <Tautan childreen={"Home"} path={"/"} />
-            <Tautan childreen={"About"} path={"/about"} />
             <Tautan childreen={"Project"} path={"/project"} />
             <Tautan childreen={"Certificate"} path={"/certificate"} />
           </div>
@@ -80,7 +82,6 @@ const Navbar = () => {
       {show && (
         <nav className="flex flex-row text-sm gap-3 p-4 2xl:hidden xl:hidden lg:hidden bg-slate-900">
           <Tautan childreen={"Home"} path={"/"} />
-          <Tautan childreen={"About"} path={"/about"} />
           <Tautan childreen={"Project"} path={"/project"} />
           <Tautan childreen={"Certificate"} path={"/certificate"} />
         </nav>

@@ -20,7 +20,6 @@ import project from "@/helpers/projects";
 const HomePage = () => {
   const [detailCertificate, setDetailCertificate] = useState(false);
   const [dataDetail, setDataDetail] = useState("");
-  console.log(dataDetail);
 
   return (
     <section className="relative max-h-screen h-screen ">
@@ -44,10 +43,9 @@ const HomePage = () => {
 
             <div>
               <p className=" 2xl:w-3/5 xl:w-3/5 lg:w-3/5 w-full text-slate-50 font-extralight">
-                I am a frontend developer, now I am still a student at SMKN 1
-                Cirebon. I want to become a web developer because it suits my
-                passion, after graduating from SMKN 1 Cirebon, I want to work as
-                a
+                I am a frontend developer, now I was studying at SMKN 1 Cirebon.
+                I want to become a web developer after graduating from SMKN 1
+                Cirebon, I want to work as a
                 <span className="text-yellow-500 font-bold ml-2">
                   FRONTEND WEB DEVELOPER
                 </span>
@@ -61,15 +59,18 @@ const HomePage = () => {
             <div className="flex flex-col gap-8 overflow-x-scroll overflow-y-hidden scrollbar-none">
               <div className="flex flex-col gap-5 relative">
                 <div className="flex items-center gap-5 flex-row overflow-x-scroll overflow-y-hidden scrollbar-none w-[800px]">
-                  {images?.imagesSkill?.map((image, i) => (
-                    <div
-                      key={i}
-                      setDataDetail={image?.image}
-                      className="max-w-[70px] h-[70px]"
-                    >
-                      <CardSkill image={image} name={image?.name} />
-                    </div>
-                  ))}
+                  <EachUtils
+                    of={images.imagesSkill}
+                    render={(image, i) => (
+                      <div
+                        key={i}
+                        setDataDetail={image?.image}
+                        className="max-w-[70px] h-[70px]"
+                      >
+                        <CardSkill image={image} name={image?.name} />
+                      </div>
+                    )}
+                  />
                 </div>
               </div>
             </div>
@@ -82,7 +83,7 @@ const HomePage = () => {
               <EachUtils
                 of={project.projectHome}
                 render={(item) => (
-                  <div className=" 2xl:w-full xl:w-full lg:w-full sm:w-full w-[500px]">
+                  <div className=" 2xl:w-full xl:w-full lg:w-full sm:w-full w-full">
                     <CardProject item={item} />
                   </div>
                 )}
