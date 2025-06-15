@@ -14,6 +14,8 @@ import CertificateDetail from "../Fragments/CertificateDetail";
 import EachUtils from "@/utils/EachUtils";
 import CardProject from "../Fragments/CardProject";
 import project from "@/helpers/projects";
+import Link from "next/link";
+import Image from "next/image";
 
 const HomePage = () => {
   const [detailCertificate, setDetailCertificate] = useState(false);
@@ -54,9 +56,32 @@ const HomePage = () => {
                 </span>
               </p>
 
-              <button className="bg-gradient-to-r from-red-700 to-yellow-600 text-slate-50 font-bold py-2 px-4 rounded-lg w-fit">
-                Download CV
-              </button>
+              <div className=" flex flex-row items-center gap-4">
+                <a
+                  href="cv/CV_Yazid_Khairul.pdf"
+                  download={"CV_Yazid_Khairul.pdf"}
+                  className="bg-gradient-to-r from-red-700 to-yellow-600 text-slate-50 font-bold py-2 px-4 rounded-lg w-fit"
+                >
+                  Download CV
+                </a>
+                <Link
+                  href="mailto:yazidkhoirul3@gmail.com"
+                  className="flex flex-col gap-2  "
+                >
+                  <div className=" flex flex-row items-center gap-2 text-slate-50 bg-slate-600 w-fit h-fit rounded-xl p-2">
+                    <Image
+                      className=" w-7 h-7"
+                      src={images?.gmail}
+                      width={100}
+                      height={100}
+                      alt="logo "
+                    />
+                    <p className="flex flex-wrap text-xs">
+                      yazidkhoirul3@.gmail.com
+                    </p>
+                  </div>
+                </Link>
+              </div>
             </div>
             <div className="w-full h-1 rounded-full bg-slate-50 bg-opacity-30"></div>
           </div>

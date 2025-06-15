@@ -19,7 +19,7 @@ const Navbar = () => {
       <nav className="flex 2xl:items-center xl:items-center lgz:items-center gap-10 2xl:h-screen xl:h-screen lg:h-screen h-full 2xl:w-[250px] xl:w-[250px] lg:w-[250px] w-full 2xl:flex-col xl:flex-col lg:flex-col marker:flex-row p-3 relative 2xl:bg-slate-900 xl:bg-slate-900 lg:bg-slate-900 2xl:bg-gradient-to-r 2xl:from-slate-900 2xl:to-slate-900 xl:from-slate-900 xl:to-slate-900 lg:from-slate-900 lg:to-slate-900 bg-gradient-to-r from-red-700 to-yellow-600">
         <div
           id="absolute-item"
-          className="w-full h-32 rounded-b-lg 2xl:absolute xl:absolute lg:absolute 2xl:block xl:block lg:block hidden bg-gradient-to-r from-red-700 to-yellow-600 top-0 "
+          className="w-full h-32 rounded-b-lg 2xl:absolute xl:absolute lg:absolute 2xl:block xl:block lg:block hidden bg-gradient-to-r left-0 from-red-700 to-yellow-600 top-0 "
         ></div>
 
         <div className=" w-full 2xl:absolute xl:absolute lg:absolute top-20 flex 2xl:flex-col xl:flex-col lg:flex-col  2xl:items-center xl:items-center lg:items-center gap-8">
@@ -55,7 +55,7 @@ const Navbar = () => {
             </div>
           </div>
 
-          <div className="w-full h-1 2xl:block xl:block lg:block hidden rounded-full bg-slate-50 bg-opacity-30"></div>
+          <div className=" w-[90%] h-1  lg:flex hidden rounded-full bg-slate-50 bg-opacity-30"></div>
 
           <div className="2xl:flex xl:flex lg:flex 2xl:flex-col xl:flex-col lg:flex-col hidden items-center gap-5 w-full px-5">
             <Tautan childreen={"Home"} path={"/"} />
@@ -63,26 +63,7 @@ const Navbar = () => {
             {/* <Tautan childreen={"Certificate"} path={"/certificate"} /> */}
           </div>
 
-          <div className="w-full h-1 2xl:block xl:block lg:block hidden rounded-full bg-slate-50 bg-opacity-30"></div>
-
-          <Link
-            href="mailto:yazidkhoirul3@gmail.com"
-            className="2xl:flex xl:flex lg:flex hidden flex-col gap-2 "
-          >
-            <div className=" flex flex-row items-center gap-2 text-slate-50 bg-slate-600 p-2">
-              <Image
-                className=" w-10 h-10"
-                src={images?.gmail}
-                width={100}
-                height={100}
-                alt="logo "
-              />
-              <p className="flex flex-wrap text-sm">yazidkhoirul3@.gmail.com</p>
-            </div>
-            <p className=" text-slate-50 text-sm">
-              {/* @copyright {new Date().getFullYear()} by Yazid Khairul */}
-            </p>
-          </Link>
+          <div className=" w-[90%] h-1  lg:flex hidden rounded-full bg-slate-50 bg-opacity-30"></div>
         </div>
       </nav>
 
@@ -90,7 +71,7 @@ const Navbar = () => {
         <nav className="flex flex-row text-sm gap-3 p-4 2xl:hidden xl:hidden lg:hidden bg-slate-900">
           <Tautan childreen={"Home"} path={"/"} />
           <Tautan childreen={"Project"} path={"/project"} />
-          <Tautan childreen={"Certificate"} path={"/certificate"} />
+          {/* <Tautan childreen={"Certificate"} path={"/certificate"} /> */}
         </nav>
       )}
     </div>
