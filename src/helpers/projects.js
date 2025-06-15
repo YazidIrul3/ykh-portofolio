@@ -7,20 +7,20 @@ const allProjects = [
     hosting: "",
     github: "https://github.com/YazidIrul3/Marketplace-Nextjs",
     description:
-      "Sebuah website dengan Next JS dengan fetch data dari API dummmy.json",
+      "Sebuah website marketplace yang saya buat dengan menggunakan API dari https://dummyjson.com",
     image: images.project.next_marketplace,
     techs: [
       {
         name: "Tailwind",
-        img: images.tailwind,
+        img: images?.technologies?.tailwind,
       },
       {
         name: "NextJS",
-        img: images.nextjs,
+        img: images?.technologies?.nextjs,
       },
       {
         name: "JavaScript",
-        img: images.js,
+        img: images?.technologies?.js,
       },
     ],
   },
@@ -30,72 +30,75 @@ const allProjects = [
     title: "JIKAN ANIME UNOFFICIAL",
     hosting: "https://jikanunofficial.vercel.app/",
     github: "https://github.com/YazidIrul3/NEXT-Web-Anime",
-    description: "website yang saya dengan menggunakan api dari jikan api",
+    description:
+      "JIKAN ANIME UNOFFICIAL adalah platform web untuk menonton anime yang diproduksi oleh negara Jepang. Data-data dari website ini, saya menggunakan publik API dari https://jikan.moe/",
     image: images.project.jikan_unofficial,
     techs: [
       {
         name: "Tailwind",
-        img: images.tailwind,
+        img: images?.technologies?.tailwind,
       },
       {
         name: "NextJS",
-        img: images.nextjs,
+        img: images?.technologies?.nextjs,
       },
       {
         name: "JavaScript",
-        img: images.js,
+        img: images?.technologies?.js,
       },
     ],
   },
   {
     id: 3,
-    title: "FULLSTACK WEB MY QUOTES",
+    title: "MY QUOTES",
     hosting: "",
     github: "https://github.com/YazidIrul3/my-quotes-web",
-    description: "website ini berisi tentang semua quotes yang sama dapatkan",
+    description:
+      "My Quotes adalah website fullstack yang saya buat untuk menyimpan quotes-quotes yang saya dapat dari internet",
     image: images.project.quotes_web,
     techs: [
       {
         name: "Tailwind",
-        img: images.tailwind,
+        img: images?.technologies?.tailwind,
       },
       {
         name: "React JS",
-        img: images.react,
+        img: images?.technologies?.react,
       },
       {
         name: "JavaScript",
-        img: images.js,
+        img: images?.technologies?.js,
       },
       {
         name: "Express JS",
-        img: images.express,
+        img: images?.technologies?.express,
       },
       {
         name: "Mongo DB",
-        img: images.mongodb,
+        img: images?.technologies?.mongodb,
       },
     ],
   },
   {
     id: 4,
-    title: "Toko Sepatu",
+    title: "Shoes Store",
     hosting: "",
     github: "https://github.com/YazidIrul3/Toko-sepatu-PHP",
-    description: "website ini toko sepatu yang dibuat dengan php native",
+    description:
+      "Shoes Store merupakan website untuk membeli sepatu yang didalamnya terdapat fitur-fitur seperti CRUD serta terdapat report invoice pembelian",
     image: images.project.toko_sepatu,
     techs: [
       {
         name: "Tailwind",
-        img: images.tailwind,
+        img: images?.technologies?.tailwind,
       },
       {
         name: "PHP",
-        img: images.php,
+        img: images?.technologies?.php,
       },
       {
         name: "MYSQL",
-        img: images.mysql,
+        img: images?.technologies?.mysql,
       },
     ],
   },
@@ -105,20 +108,20 @@ const allProjects = [
     hosting: "https://company-profile-virid-ten.vercel.app/",
     github: "https://github.com/YazidIrul3/Company-Profile",
     description:
-      "Sebuah website landing page untuk company profile, website ini hasil dari kolaborasi saya dengan teman saya",
+      "Website ini adalah projek akhir dari coding day yang dilaksanakan di SMKN 1 Cirebon, kita disuruh untuk membuat sebuah web company profile dengan menggunakan HTML, CSS, dan JavaScript secara berkolabarasi dengan teman",
     image: images.project.company_profile,
     techs: [
       {
         name: "HTML",
-        img: images.html,
+        img: images?.technologies?.html,
       },
       {
         name: "CSS",
-        img: images.css,
+        img: images?.technologies?.css,
       },
       {
         name: "JavaScript",
-        img: images.js,
+        img: images?.technologies?.js,
       },
     ],
   },
@@ -128,20 +131,43 @@ const allProjects = [
     hosting: "",
     github: "https://github.com/YazidIrul3/Al-quran-online-ts",
     description:
-      "website masih error di bagian development,tapi bisa untuk di running",
+      "Sebuah website al-quaran online yang saya buat dengan public API, berisi seluruh ayat-ayat al-quran beserta terjemahannya",
     image: images.project.al_quran_web,
     techs: [
       {
         name: "Tailwind",
-        img: images.tailwind,
+        img: images?.technologies?.tailwind,
       },
       {
         name: "Next",
-        img: images.nextjs,
+        img: images?.technologies?.nextjs,
       },
       {
         name: "TypeScript",
-        img: images.ts,
+        img: images?.technologies?.ts,
+      },
+    ],
+  },
+  {
+    id: 7,
+    title: "Gloria Hotel",
+    hosting: "",
+    github: "https://github.com/abiy001/Gloria-Hotel",
+    description:
+      "Gloria Hotel adalah website hotel untuk mereservasi kamar di hotel tersebut. Projek dikerjakan dengan cara berkelompok yang terdiri dari 7 anggota, saya berpertanggungan jawab untuk mengerjakan bagian backend dan membuat beberapa tampilan.",
+    image: images.project.gloria_hotel,
+    techs: [
+      {
+        name: "Laravel",
+        img: images?.technologies?.laravel,
+      },
+      {
+        name: "Tailwind",
+        img: images?.technologies?.tailwind,
+      },
+      {
+        name: "MYSQL",
+        img: images?.technologies?.mysql,
       },
     ],
   },
@@ -150,24 +176,24 @@ const allProjects = [
 const projectHome = [
   {
     id: 1,
-    title: "YKH Marketplace",
+    title: "Gloria Hotel",
     hosting: "",
-    github: "https://github.com/YazidIrul3/Marketplace-Nextjs",
+    github: "https://github.com/abiy001/Gloria-Hotel",
     description:
-      "Sebuah website dengan Next JS dengan fetch data dari API dummmy.json",
-    image: images.project.next_marketplace,
+      "Gloria Hotel adalah website hotel untuk mereservasi kamar di hotel tersebut. Projek dikerjakan dengan cara berkelompok yang terdiri dari 7 anggota, saya berpertanggungan jawab untuk mengerjakan bagian backend dan membuat beberapa tampilan.",
+    image: images.project.gloria_hotel,
     techs: [
       {
+        name: "Laravel",
+        img: images?.technologies?.laravel,
+      },
+      {
         name: "Tailwind",
-        img: images.tailwind,
+        img: images?.technologies?.tailwind,
       },
       {
-        name: "NextJS",
-        img: images.nextjs,
-      },
-      {
-        name: "JavaScript",
-        img: images.js,
+        name: "MYSQL",
+        img: images?.technologies?.mysql,
       },
     ],
   },
@@ -177,72 +203,75 @@ const projectHome = [
     title: "JIKAN ANIME UNOFFICIAL",
     hosting: "https://jikanunofficial.vercel.app/",
     github: "https://github.com/YazidIrul3/NEXT-Web-Anime",
-    description: "website yang saya dengan menggunakan api dari jikan api",
+    description:
+      "JIKAN ANIME UNOFFICIAL adalah platform web untuk menonton anime yang diproduksi oleh negara Jepang. Data-data dari website ini, saya menggunakan publik API dari https://jikan.moe/",
     image: images.project.jikan_unofficial,
     techs: [
       {
         name: "Tailwind",
-        img: images.tailwind,
+        img: images?.technologies?.tailwind,
       },
       {
         name: "NextJS",
-        img: images.nextjs,
+        img: images?.technologies?.nextjs,
       },
       {
         name: "JavaScript",
-        img: images.js,
+        img: images?.technologies?.js,
       },
     ],
   },
   {
     id: 3,
-    title: "FULLSTACK WEB MY QUOTES",
+    title: "MY QUOTES",
     hosting: "",
     github: "https://github.com/YazidIrul3/my-quotes-web",
-    description: "website ini berisi tentang semua quotes yang sama dapatkan",
+    description:
+      "My Quotes adalah website fullstack yang saya buat untuk menyimpan quotes-quotes yang saya dapat dari internet",
     image: images.project.quotes_web,
     techs: [
       {
         name: "Tailwind",
-        img: images.tailwind,
+        img: images?.technologies?.tailwind,
       },
       {
         name: "React JS",
-        img: images.react,
+        img: images?.technologies?.react,
       },
       {
         name: "JavaScript",
-        img: images.js,
+        img: images?.technologies?.js,
       },
       {
         name: "Express JS",
-        img: images.express,
+        img: images?.technologies?.express,
       },
       {
         name: "Mongo DB",
-        img: images.mongodb,
+        img: images?.technologies?.mongodb,
       },
     ],
   },
   {
     id: 4,
-    title: "Toko Sepatu",
+    title: "Shoes Store",
     hosting: "",
     github: "https://github.com/YazidIrul3/Toko-sepatu-PHP",
-    description: "website ini toko sepatu yang dibuat dengan php native",
+    description:
+      "Shoes Store merupakan website untuk membeli sepatu yang didalamnya terdapat fitur-fitur seperti CRUD serta terdapat report invoice pembelian",
     image: images.project.toko_sepatu,
     techs: [
       {
         name: "Tailwind",
-        img: images.tailwind,
+        img: images?.technologies?.tailwind,
       },
       {
         name: "PHP",
-        img: images.php,
+        img: images?.technologies?.php,
       },
       {
         name: "MYSQL",
-        img: images.mysql,
+        img: images?.technologies?.mysql,
       },
     ],
   },

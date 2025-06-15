@@ -31,6 +31,7 @@ const Navbar = () => {
               height={100}
               alt="logo"
             />
+            {/* <div className="2xl:w-20 xl:w-20 lg:w-20 2xl:h-20 xl:h-20 lg:h-20 w-14 h-14 rounded-full border border-slate-50"></div> */}
 
             <div className="flex 2xl:flex-col xl:flex-col lg:flex-col items-center  ">
               <h1 className="font-extrabold text-slate-50 text-xl py-1">
@@ -40,8 +41,10 @@ const Navbar = () => {
                 <Link href={"https://github.com/YazidIrul3"}>
                   <GithubLogo />
                 </Link>
-                <LinkedinLogo />
-                <InstagramLogo />
+
+                <Link href={"https://www.instagram.com/yazidkhairul_99/"}>
+                  <InstagramLogo />
+                </Link>
               </div>
             </div>
             <div
@@ -57,12 +60,15 @@ const Navbar = () => {
           <div className="2xl:flex xl:flex lg:flex 2xl:flex-col xl:flex-col lg:flex-col hidden items-center gap-5 w-full px-5">
             <Tautan childreen={"Home"} path={"/"} />
             <Tautan childreen={"Project"} path={"/project"} />
-            <Tautan childreen={"Certificate"} path={"/certificate"} />
+            {/* <Tautan childreen={"Certificate"} path={"/certificate"} /> */}
           </div>
 
           <div className="w-full h-1 2xl:block xl:block lg:block hidden rounded-full bg-slate-50 bg-opacity-30"></div>
 
-          <div className="2xl:flex xl:flex lg:flex hidden flex-col gap-2">
+          <Link
+            href="mailto:yazidkhoirul3@gmail.com"
+            className="2xl:flex xl:flex lg:flex hidden flex-col gap-2 "
+          >
             <div className=" flex flex-row items-center gap-2 text-slate-50 bg-slate-600 p-2">
               <Image
                 className=" w-10 h-10"
@@ -74,9 +80,9 @@ const Navbar = () => {
               <p className="flex flex-wrap text-sm">yazidkhoirul3@.gmail.com</p>
             </div>
             <p className=" text-slate-50 text-sm">
-              @copyright {new Date().getFullYear()} by Yazid Khairul
+              {/* @copyright {new Date().getFullYear()} by Yazid Khairul */}
             </p>
-          </div>
+          </Link>
         </div>
       </nav>
 

@@ -20,8 +20,8 @@ const HomePage = () => {
   const [dataDetail, setDataDetail] = useState("");
 
   return (
-    <section className="relative max-h-screen h-screen ">
-      <div className="py-8 px-4  mx-auto w-full min-h-full h-screen overflow-y-scroll scrollbar-none">
+    <section className=" max-h-screen h-screen ">
+      <div className=" pb-4 px-4  mx-auto w-full min-h-full h-screen overflow-y-scroll scrollbar-none">
         <div className="flex flex-col gap-5">
           <div className="flex flex-col gap-5">
             <div className="flex flex-col gap-1">
@@ -39,15 +39,24 @@ const HomePage = () => {
               </div>
             </div>
 
-            <div>
-              <p className=" 2xl:w-3/5 xl:w-3/5 lg:w-3/5 w-full text-slate-50 font-extralight">
-                I am a frontend developer, now I was studying at SMKN 1 Cirebon.
-                I want to become a web developer after graduating from SMKN 1
-                Cirebon, I want to work as a
+            <div className=" flex flex-col gap-3">
+              <p className=" 2xl:w-3/5 xl:w-3/5 lg:w-3/5 w-full text-slate-50 font-extralight text-justify">
+                {/* I am a frontend developer, I have been studying programmer at
+                SMKN 1 Cirebon for 2 years. I am currently in my final year and
+                decided after graduate from SMKN 1 Cirebon, I want to work as a */}
+                Hai, nama saya Yazid Khairul sekarang saya sedang belajar
+                pemograman di SMKN 1 Cirebon jurusan rekayasa perangkat lunak.
+                Saya sudah belajar pemograman di sana sekitar 2 tahun.
+                Rencananya setelah lulus dari sana, saya berencana untuk menjadi
+                seorang
                 <span className="text-yellow-500 font-bold ml-2">
                   FRONTEND WEB DEVELOPER
                 </span>
               </p>
+
+              <button className="bg-gradient-to-r from-red-700 to-yellow-600 text-slate-50 font-bold py-2 px-4 rounded-lg w-fit">
+                Download CV
+              </button>
             </div>
             <div className="w-full h-1 rounded-full bg-slate-50 bg-opacity-30"></div>
           </div>
@@ -77,7 +86,7 @@ const HomePage = () => {
 
           <div className="flex flex-col gap-5 overflow-x-scroll scrollbar-none">
             <h1 className="font-bold text-xl text-slate-50">Projects</h1>
-            <div className=" grid 2xl:grid-cols-4 xl:grid-cols-3 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-2 grid-cols-1 gap-4 ">
+            <div className=" grid 2xl:grid-cols-2 xl:grid-cols-2 lg:grid-cols-2 md:grid-cols-2 sm:grid-cols-2 grid-cols-1 gap-4 ">
               <EachUtils
                 of={project.projectHome}
                 render={(item) => (
@@ -115,7 +124,7 @@ const HomePage = () => {
       {detailCertificate && (
         <div
           onClick={() => setDetailCertificate(false)}
-          className="absolute top-0 left-0 right-0 w-full h-full bg-slate-900 bg-opacity-30 flex justify-center items-center px-2"
+          className="absolute top-0 left-0 right-0 min-h-screen h-full w-screen overflow-hidden scrollbar-none bg-slate-900 bg-opacity-30 flex justify-center items-center px-2"
         >
           <CertificateDetail item={dataDetail} />
         </div>
