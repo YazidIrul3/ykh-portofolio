@@ -12,29 +12,45 @@ import mysql from "../../public/images/mysql.png";
 import ts from "../../public/images/ts.png";
 import gmail from "../../public/images/gmail.png";
 import mongodb from "../../public/images/mongodb.png";
+import laravel from "../../public/images/laravel.svg";
 import next_marketplace from "../../public/images/project/next_marketplace.png";
 import jikan_unofficial from "../../public/images/project/jikan_unoffcial.png";
 import quotes_web from "../../public/images/project/quotes_web.png";
 import toko_sepatu from "../../public/images/project/toko_sepatu.png";
 import al_quran_web from "../../public/images/project/al-quran-web.png";
+import gloria_hotel from "../../public/images/project/gloria-hotel.png";
 import company_profile from "../../public/images/project/company-profile.png";
 
 const images = {
   certificate1,
   imagesHome,
-  nextjs,
-  css,
-  ts,
-  react,
-  php,
-  express,
-  tailwind,
-  js,
-  html,
-  mysql,
   gmail,
-  mongodb,
-  imagesSkill: [html, css, tailwind, php, express, js, react, nextjs, mysql],
+  technologies: {
+    nextjs,
+    css,
+    ts,
+    react,
+    php,
+    express,
+    tailwind,
+    js,
+    html,
+    mysql,
+    mongodb,
+    laravel,
+  },
+  imagesSkill: [
+    html,
+    css,
+    tailwind,
+    php,
+    express,
+    js,
+    react,
+    nextjs,
+    mysql,
+    laravel,
+  ],
   project: {
     next_marketplace,
     jikan_unofficial,
@@ -42,6 +58,7 @@ const images = {
     toko_sepatu,
     company_profile,
     al_quran_web,
+    gloria_hotel,
   },
 };
 
