@@ -58,9 +58,9 @@ const HomePage = () => {
 
               <div className=" flex flex-row items-center gap-4">
                 <a
-                  href="cv/CV_Yazid_Khairul.pdf"
+                  href="/CV_Yazid_Khairul.pdf"
                   download={"CV_Yazid_Khairul.pdf"}
-                  className="bg-gradient-to-r from-red-700 to-yellow-600 text-slate-50 font-bold py-2 px-4 rounded-lg w-fit"
+                  className="bg-gradient-to-r text-sm from-red-700 to-yellow-600 text-slate-50 font-bold py-2 px-4 rounded-lg w-fit"
                 >
                   Download CV
                 </a>
@@ -76,9 +76,7 @@ const HomePage = () => {
                       height={100}
                       alt="logo "
                     />
-                    <p className="flex flex-wrap text-xs">
-                      yazidkhoirul3@.gmail.com
-                    </p>
+                   
                   </div>
                 </Link>
               </div>
