@@ -147,7 +147,7 @@ const HomePage = () => {
       {detailCertificate && (
         <div
           onClick={() => setDetailCertificate(false)}
-          className="absolute top-0 left-0 right-0 min-h-screen h-full w-screen overflow-hidden scrollbar-none bg-slate-900 bg-opacity-30 flex justify-center items-center px-2"
+          className="absolute top-0 left-0 right-0 min-h-screen h-full w-screen overflow-hidden scrollbar-none bg-slate-900 bg-opacity-30 flex justify-center items-center px-4"
         >
           <CertificateDetail item={dataDetail} />
         </div>

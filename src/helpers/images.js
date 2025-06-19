@@ -1,4 +1,5 @@
-import certificate1 from "../../public/images/sertifikat-coding-day.jpg";
+import nusabot from "../../public/images/sertifikat-coding-day.jpg";
+import lks2025 from "../../public/images/lks2025.jpg";
 import imagesHome from "../../public/images/homeIMG.png";
 import nextjs from "../../public/images/next.svg";
 import css from "../../public/images/css.png";
@@ -22,7 +23,7 @@ import gloria_hotel from "../../public/images/project/gloria-hotel.png";
 import company_profile from "../../public/images/project/company-profile.png";
 
 const images = {
-  certificate1,
+  certificates: { nusabot, lks2025 },
   imagesHome,
   gmail,
   technologies: {
