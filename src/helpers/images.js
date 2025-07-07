@@ -22,7 +22,7 @@ import al_quran_web from "../../public/images/project/al-quran-web.png";
 import gloria_hotel from "../../public/images/project/gloria-hotel.png";
 import company_profile from "../../public/images/project/company-profile.png";
 import wau_animation_unoffical from "../../public/images/project/wau_animation_unoffical.png";
-import vite from "../../public/images/vite.js.png";
+import vite from "../../public/images/vite.png";
 import gsap from "../../public/images/gsap-black.svg";
 
 const images = {

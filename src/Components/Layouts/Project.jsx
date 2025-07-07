@@ -9,8 +9,6 @@ import { useEffect, useState } from "react";
 const ProjectLayout = () => {
   const [detailIMG, setDetailIMG] = useState(true);
 
-  const showDetailIMG = () => {};
-
   useEffect(() => {
     if (detailIMG) {
       document.body.style.overflow = "hidden";
