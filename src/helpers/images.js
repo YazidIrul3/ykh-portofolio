@@ -21,6 +21,9 @@ import toko_sepatu from "../../public/images/project/toko_sepatu.png";
 import al_quran_web from "../../public/images/project/al-quran-web.png";
 import gloria_hotel from "../../public/images/project/gloria-hotel.png";
 import company_profile from "../../public/images/project/company-profile.png";
+import wau_animation_unoffical from "../../public/images/project/wau_animation_unoffical.png";
+import vite from "../../public/images/vite.js.png";
+import gsap from "../../public/images/gsap-black.svg";
 
 const images = {
   certificates: { nusabot, lks2025 },
@@ -39,6 +42,8 @@ const images = {
     mysql,
     mongodb,
     laravel,
+    vite,
+    gsap,
   },
   imagesSkill: [html, css, tailwind, php, laravel, js, react, nextjs, mysql],
   project: {
@@ -49,6 +54,7 @@ const images = {
     company_profile,
     al_quran_web,
     gloria_hotel,
+    wau_animation_unoffical,
   },
 };
 
