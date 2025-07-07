@@ -76,7 +76,6 @@ const HomePage = () => {
                       height={100}
                       alt="logo "
                     />
-                   
                   </div>
                 </Link>
               </div>
@@ -118,6 +117,15 @@ const HomePage = () => {
                   </div>
                 )}
               />
+            </div>
+
+            <div className=" w-full h-full flex justify-center items-center">
+              <Link
+                href={"/project"}
+                className=" w-fit h-fit px-4 py-2 border bg-gradient-to-r hover:from-red-700 hover:to-red-800 duration-300 border-red-600 text-slate-50 font-bold text-sm"
+              >
+                OTHER PROJECTS
+              </Link>
             </div>
 
             <div className="w-full h-1 rounded-full bg-slate-50 bg-opacity-30"></div>

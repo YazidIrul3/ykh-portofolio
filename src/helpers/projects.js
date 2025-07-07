@@ -3,8 +3,8 @@ import images from "./images";
 const allProjects = [
   {
     id: 1,
-    title: "YKH Marketplace",
-    hosting: "",
+    title: "ZidMarket",
+    hosting: "https://zidmarket.vercel.app/",
     github: "https://github.com/YazidIrul3/Marketplace-Nextjs",
     description:
       "Sebuah website marketplace yang saya buat dengan menggunakan API dari https://dummyjson.com",
@@ -168,6 +168,33 @@ const allProjects = [
       {
         name: "MYSQL",
         img: images?.technologies?.mysql,
+      },
+    ],
+  },
+  {
+    id: 8,
+    title: "Wau Animation Unofficial",
+    hosting: "https://wau-animation-unofficial.vercel.app/",
+    github: "https://github.com/YazidIrul3/wau-animation-unofficial",
+    description:
+      "Gloria Hotel adalah website hotel untuk mereservasi kamar di hotel tersebut. Projek dikerjakan dengan cara berkelompok yang terdiri dari 7 anggota, saya berpertanggungan jawab untuk mengerjakan bagian backend dan membuat beberapa tampilan.",
+    image: images.project.wau_animation_unoffical,
+    techs: [
+      {
+        name: "Vite",
+        img: images?.technologies?.vite,
+      },
+      {
+        name: "JavaScript",
+        img: images?.technologies?.js,
+      },
+      {
+        name: "Tailwind",
+        img: images?.technologies?.tailwind,
+      },
+      {
+        name: "GSAP",
+        img: images?.technologies?.gsap,
       },
     ],
   },
