@@ -128,7 +128,7 @@ const allProjects = [
   {
     id: 6,
     title: "Al-Quran Online",
-    hosting: "",
+    hosting: "https://our-quran-bay.vercel.app/",
     github: "https://github.com/YazidIrul3/Al-quran-online-ts",
     description:
       "Sebuah website al-quaran online yang saya buat dengan public API, berisi seluruh ayat-ayat al-quran beserta terjemahannya",
@@ -177,7 +177,7 @@ const allProjects = [
     hosting: "https://wau-animation-unofficial.vercel.app/",
     github: "https://github.com/YazidIrul3/wau-animation-unofficial",
     description:
-      "Gloria Hotel adalah website hotel untuk mereservasi kamar di hotel tersebut. Projek dikerjakan dengan cara berkelompok yang terdiri dari 7 anggota, saya berpertanggungan jawab untuk mengerjakan bagian backend dan membuat beberapa tampilan.",
+      "Website adalah sebuah website landing page untuk studio animation yang berasal dari Malaysia yang bernama Wau Animation.",
     image: images.project.wau_animation_unoffical,
     techs: [
       {
