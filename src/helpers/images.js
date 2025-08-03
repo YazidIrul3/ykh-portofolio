@@ -15,6 +15,7 @@ import gmail from "../../public/images/gmail.png";
 import mongodb from "../../public/images/mongodb.png";
 import laravel from "../../public/images/laravel.svg";
 import next_marketplace from "../../public/images/project/next_marketplace.png";
+import zidview from "../../public/images/project/zidview.png";
 import jikan_unofficial from "../../public/images/project/jikan_unoffcial.png";
 import quotes_web from "../../public/images/project/quotes_web.png";
 import toko_sepatu from "../../public/images/project/toko_sepatu.png";
@@ -55,6 +56,7 @@ const images = {
     al_quran_web,
     gloria_hotel,
     wau_animation_unoffical,
+    zidview,
   },
 };
 

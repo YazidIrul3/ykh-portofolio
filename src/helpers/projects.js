@@ -3,7 +3,7 @@ import images from "./images";
 const allProjects = [
   {
     id: 1,
-    title: "ZidMarket",
+    title: "ZidMart",
     hosting: "https://zidmarket.vercel.app/",
     github: "https://github.com/YazidIrul3/Marketplace-Nextjs",
     description:
@@ -195,6 +195,28 @@ const allProjects = [
       {
         name: "GSAP",
         img: images?.technologies?.gsap,
+      },
+    ],
+  },
+  {
+    id: 9,
+    title: "Zidview",
+    hosting: "https://zidview.vercel.app/",
+    github: "https://github.com/YazidIrul3/zidview",
+    description: "Sebuah website nonton film dan tv series gratis",
+    image: images.project.zidview,
+    techs: [
+      {
+        name: "Next Js",
+        img: images?.technologies?.nextjs,
+      },
+      {
+        name: "JavaScript",
+        img: images?.technologies?.js,
+      },
+      {
+        name: "Tailwind",
+        img: images?.technologies?.tailwind,
       },
     ],
   },
