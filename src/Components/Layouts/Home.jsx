@@ -16,14 +16,15 @@ import CardProject from "../Fragments/CardProject";
 import project from "@/helpers/projects";
 import Link from "next/link";
 import Image from "next/image";
+import sosmedUtils from "@/helpers/sosmed";
 
 const HomePage = () => {
   const [detailCertificate, setDetailCertificate] = useState(false);
   const [dataDetail, setDataDetail] = useState("");
 
   return (
-    <section className=" max-h-screen h-screen ">
-      <div className=" pb-4 px-4  mx-auto w-full min-h-full h-screen overflow-y-scroll scrollbar-none">
+    <section className=" overflow-y-scroll scrollbar-none min-h-full min-w-full ">
+      <div className=" pb-4  mx-auto min-w-full   ">
         <div className="flex flex-col gap-5">
           <div className="flex flex-col gap-5">
             <div className="flex flex-col gap-1">
@@ -32,17 +33,24 @@ const HomePage = () => {
                 <span className="text-yellow-500">Yazid Khairul</span>
               </h1>
               <h3 className="text-red-400 font-extrabold text-lg">
-                Frontend Developer
+                A Frontend Developer
               </h3>
-              <div className="2xl:hidden xl:hidden lg:hidden flex text-yellow-600 text-3xl mt-3 gap-2">
-                <GithubLogo />
-                <LinkedinLogo />
-                <InstagramLogo />
+              <div className=" lg:hidden flex text-yellow-600 text-3xl mt-3 gap-2">
+                <Link href={sosmedUtils?.github}>
+                  <GithubLogo />
+                </Link>
+
+                <Link href={sosmedUtils?.instagram}>
+                  <InstagramLogo />
+                </Link>
+                <Link href={sosmedUtils?.linkedIn}>
+                  <LinkedinLogo />
+                </Link>
               </div>
             </div>
 
             <div className=" flex flex-col gap-3">
-              <p className=" 2xl:w-3/5 xl:w-3/5 lg:w-3/5 w-full text-slate-50 font-extralight text-justify">
+              <p className=" lg:w-3/5 w-full text-slate-50 font-extralight text-justify">
                 {/* I am a frontend developer, I have been studying programmer at
                 SMKN 1 Cirebon for 2 years. I am currently in my final year and
                 decided after graduate from SMKN 1 Cirebon, I want to work as a */}
@@ -87,14 +95,14 @@ const HomePage = () => {
             <h1 className="font-bold text-xl text-yellow-500">Skills</h1>
             <div className="flex flex-col gap-8 overflow-x-scroll overflow-y-hidden scrollbar-none">
               <div className="flex flex-col gap-5 relative">
-                <div className="flex items-center gap-5 flex-row overflow-x-scroll overflow-y-hidden scrollbar-none w-[800px]">
+                <div className="flex items-center gap-5 flex-row overflow-x-scroll overflow-y-hidden scrollbar-none w-full  ">
                   <EachUtils
                     of={images.imagesSkill}
                     render={(image, i) => (
                       <div
                         key={i}
                         setDataDetail={image?.image}
-                        className="max-w-[70px] h-[70px]"
+                        className="lg:max-w-[70px] min-w-[70px] h-[70px]"
                       >
                         <CardSkill image={image} name={image?.name} />
                       </div>
@@ -112,7 +120,7 @@ const HomePage = () => {
               <EachUtils
                 of={project.projectHome}
                 render={(item) => (
-                  <div className=" 2xl:w-full xl:w-full lg:w-full sm:w-full w-full">
+                  <div className=" ">
                     <CardProject item={item} />
                   </div>
                 )}
@@ -134,7 +142,7 @@ const HomePage = () => {
           <div className="flex flex-col gap-5">
             <div className="flex flex-col gap-5">
               <h1 className="font-bold text-xl text-slate-50">Certificate</h1>
-              <div className="flex overflow-x-scroll scrollbar-none items-center gap-3">
+              <div className="flex overflow-x-scroll scrollbar-none  items-center gap-3">
                 {certificate?.map((certificate, i) => (
                   <div
                     key={i}
