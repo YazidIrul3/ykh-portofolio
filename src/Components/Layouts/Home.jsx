@@ -51,17 +51,14 @@ const HomePage = () => {
 
             <div className=" flex flex-col gap-3">
               <p className=" lg:w-3/5 w-full text-slate-50 font-extralight text-justify">
-                {/* I am a frontend developer, I have been studying programmer at
-                SMKN 1 Cirebon for 2 years. I am currently in my final year and
-                decided after graduate from SMKN 1 Cirebon, I want to work as a */}
-                Hai, nama saya Yazid Khairul sekarang saya sedang belajar
-                pemograman di SMKN 1 Cirebon jurusan rekayasa perangkat lunak.
-                Saya sudah belajar pemograman di sana sekitar 2 tahun.
-                Rencananya setelah lulus dari sana, saya berencana untuk menjadi
-                seorang
+                I am a final year student of SMKN 1 Cirebon. I’m familiar with
+                modern web frameworks such as Next.js and Laravel. I am highly
+                motivated to continue learning new technologies and to grow as a{" "}
                 <span className="text-yellow-500 font-bold ml-2">
-                  FRONTEND WEB DEVELOPER
+                  PROFESIONAL WEB DEVELOPER
                 </span>
+                . Addionaly I have practiced my skill through projects such as a
+                Quran website online and a Booking Hotel.
               </p>
 
               <div className=" flex flex-row items-center gap-4">
