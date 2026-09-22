@@ -22,6 +22,7 @@ import toko_sepatu from "../../public/images/project/toko_sepatu.png";
 import al_quran_web from "../../public/images/project/al-quran-web.png";
 import gloria_hotel from "../../public/images/project/gloria-hotel.png";
 import company_profile from "../../public/images/project/company-profile.png";
+import hoster_house from "../../public/images/project/hoster-house.png";
 import wau_animation_unoffical from "../../public/images/project/wau_animation_unoffical.png";
 import vite from "../../public/images/tech/vite.png";
 import gsap from "../../public/images/tech/gsap-black.svg";
@@ -72,6 +73,7 @@ const images = {
     gloria_hotel,
     wau_animation_unoffical,
     zidview,
+    hoster_house,
   },
 };
 

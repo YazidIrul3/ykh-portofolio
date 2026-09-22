@@ -220,6 +220,30 @@ const allProjects = [
       },
     ],
   },
+
+  {
+    id: 10,
+    title: "Hoster House",
+    hosting: "https://hosterhouse.id",
+    github: "",
+    description:
+      "Hoster house adalah company profile dari live shopping consultant",
+    image: images.project.hoster_house,
+    techs: [
+      {
+        name: "Tailwind",
+        img: images?.technologies?.tailwind,
+      },
+      {
+        name: "Next",
+        img: images?.technologies?.nextjs,
+      },
+      {
+        name: "Typescript",
+        img: images?.technologies?.ts,
+      },
+    ],
+  },
 ];
 
 const projectHome = [

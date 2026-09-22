@@ -33,7 +33,7 @@ const HomePage = () => {
                 <span className="text-yellow-500">Yazid Khairul</span>
               </h1>
               <h3 className="text-red-400 font-extrabold text-lg">
-                A Frontend Developer
+                A Fullstack Developer
               </h3>
               <div className=" lg:hidden flex text-yellow-600 text-3xl mt-3 gap-2">
                 <Link href={sosmedUtils?.github}>

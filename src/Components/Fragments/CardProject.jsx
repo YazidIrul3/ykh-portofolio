@@ -92,16 +92,18 @@ const CardProject = ({ item }) => {
             </Link>
           )}
 
-          <Link
-            href={item?.github}
-            className="gap-2 bg-slate-950 px-5 py-2 flex justify-center items-center rounded-xl font-bold text-slate-50 hover:bg-slate-50 hover:text-slate-950 hover:transition-all hover:duration-300"
-          >
-            <div className="   text-xl  font-extrabold  flex justify-center items-center">
-              <GithubLogo />
-            </div>
+          {item?.github != "" && (
+            <Link
+              href={item?.github}
+              className="gap-2 bg-slate-950 px-5 py-2 flex justify-center items-center rounded-xl font-bold text-slate-50 hover:bg-slate-50 hover:text-slate-950 hover:transition-all hover:duration-300"
+            >
+              <div className="   text-xl  font-extrabold  flex justify-center items-center">
+                <GithubLogo />
+              </div>
 
-            <h3 className=" text-sm">Source</h3>
-          </Link>
+              <h3 className=" text-sm">Source</h3>
+            </Link>
+          )}
         </div>
       </div>
 
